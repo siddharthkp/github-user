@@ -1,0 +1,24 @@
+{
+  "name": "github-user",
+  "version": "1.0.0",
+  "description": "Get description + popular repos for a user",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharthkp/github-user.git"
+  },
+  "keywords": [],
+  "author": "siddharthkp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siddharthkp/github-user/issues"
+  },
+  "homepage": "https://github.com/siddharthkp/github-user#readme",
+  "dependencies": {
+    "axios": "0.16.2",
+    "micro": "8.0.4"
+  }
+}
