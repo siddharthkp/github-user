@@ -4,6 +4,8 @@ const axios = require('axios')
 const cache = {}
 
 module.exports = (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*')
+
   const { username } = parse(req.url, true).query
 
   if (cache[username]) res.end(JSON.stringify(cache[username]))
